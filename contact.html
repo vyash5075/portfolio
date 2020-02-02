@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+<div class="header">
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+</div>
+<div class="side-bar">
+    <div class="person">
+        <figure class="profile_shape">
+            <img class="profile_img" src="img2.png" alt="">
+            <figcaption class="profile_caption">YASH VERMA</figcaption>
+        </figure>
+    </div>
+    <span class="caption">
+        <b>
+            <h3 class="name">YASH VERMA</h3>
+        </b>
+        <h3>PROGRAMMER</h3>
+        <h3>WEB DEVELOPER</h3>
+    </span>
+    <ul>
+        <li><a class="active" href="index.html">PORTFOLIO</a></li>
+        <li><a href="skills.html">SKILLS</a></li>
+        <li><a href="https://vyash5075.github.io/resume/">RESUME</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        
+    </ul>
+</div>
+<!-- <div class="navbar">
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="skills.html">SKILLS & OFFER</a>
+        <a href="#">RESUME</a>
+        <a href="#">CONTACT</a>
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+    </div>
+</div> -->
+<div class="project">
+    <div class="container">
+        <h1 style="color:black;">CONTACT ME</h1>
+        <b><p>I am available for hire and open to any ideas of corporation.</p></b>
+            <div class="d1-vertical">
+                <dt>Email:</dt>
+                <dd>
+                    <a href=""><i class="fas fa-envelope"></i>yashverma5075@icloud.com</a>
+                </dd>
+                <p></p>
+                <p></p>
+                <dt>LinkedIn:</dt>
+                <dd>
+                    <a href="https://www.linkedin.com/in/yash-verma-b96699143/"><i class="fab fa-linkedin"></i>YASH VERMA</a>
+                </dd>
+                <br>
+                <dt>GitHub:</dt>
+                <dd>
+                    <a href="https://github.com/vyash5075"><i class="fab fa-github"></i>vyash5075</a>
+                </dd>
+                <br>
+           
+                <dt>Instagram:</dt>
+                <dd>
+                    <a href="https://www.instagram.com/vyash5075/"><i class="fab fa-instagram"></i>@vyash5075</a>
+                </dd>
+                <br>
+                
+                <br>
+                <br>
+            </div>
+    </div>
+    
+</div>
+
+
+
+
+
+
+ <img class="gradient-1" src="image14.jpg" alt="">
+     
+
+
+
+
+
+
+<script type="text/javascript">
+    window.onscroll = function () {
+        myFunction()
+    };
+
+    function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    }
+
+    function openNav() {
+        document.getElementById("mySidebar").style.height = "180px";
+        document.getElementById("main").style.marginLeft = "0px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.height = "0px";
+        document.getElementById("main").style.marginLeft = "0";
+    }
+</script>
+</body>
+</html>
